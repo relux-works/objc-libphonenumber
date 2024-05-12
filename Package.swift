@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "objc-libphonenumber-spm",
+    name: "objc-libphonenumber",
     platforms: [
         .macOS(.v10_10),
         .iOS(.v9),
@@ -13,7 +13,6 @@ let package = Package(
     products: [
         .library(
             name: "libphonenumber",
-            type: .static,
             targets: ["libphonenumber"]
         )
     ],
