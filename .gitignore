@@ -3,6 +3,7 @@
 /Packages
 /*.xcodeproj
 xcuserdata/
+Derived/
 DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 /metadata-updater/generatedJSON/PhoneNumberMetaData.json
